@@ -1,0 +1,228 @@
+.head{
+    background-color: #F0F0F0;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head_button{
+    background-color: aqua;
+}
+.head_button ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: space-around; 
+    width: 100%; 
+  }
+  
+  .head_button ul li {
+    flex: 1; 
+    text-align: center; 
+    font-size: xx-large;
+  }
+  
+  .head_button ul li a {
+    text-decoration: none; 
+    color: black; 
+    font-size: larger; 
+  }
+
+  .body1{
+    display: flex;
+    background-color: #F0F0F0;
+  }
+
+  .body1 img{
+    width: 50%
+  }
+
+  .body1 div {
+    text-align: right;
+    margin-right: 2%;
+    
+  }
+
+  .line{
+    color: #2CBEBA;
+    background-color: #2CBEBA;
+    border: 1px solid #2CBEBA;
+    border-radius: 10px;
+    height: 8px;
+    width: 12%;
+    margin-left: 88%;
+    margin-bottom: 5%;
+  }
+
+  .body1 div h2{
+    font-weight: 5000;
+    margin: 
+  }
+
+  .body1 div p{
+    text-align: justify;
+  }
+
+  .body2{
+    display: flex;
+  }
+
+  .body2_BestSellerGroup{
+    width: 48%;
+  }
+
+  .body2_saleOff{
+    width: 48%;
+  }
+
+  .body2 div h2{
+    color:#2CBEBA;
+    text-align: center;
+  }
+
+  .stuff{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+  }
+
+ .stuffPicture{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 5%;
+  }
+
+  .devices{
+    background-color: #F0F0F0;
+    width: 90%;
+  }
+  .price{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .price del{
+    color: gray;
+    font-size: small;
+  }
+
+  .button{
+    background-color: orange; /* Màu nền */
+    color: white; /* Màu chữ */
+    padding: 10px 20px; /* Khoảng cách bên trong */
+    border: none; /* Không viền */
+    border-radius: 25px; /* Bo tròn */
+    width:25%;
+    margin-left: 31%;
+  }
+  .body2_saleOff table{
+    width: 90%;
+    margin-left: 10%;
+    border-collapse: collapse;
+    height: 83.5%;
+  }
+  th, td {
+    border: 1px solid #ddd; /* Đường viền cho ô */
+    padding: 12px; /* Khoảng cách trong ô */
+    text-align: left; /* Căn trái */
+}
+
+th {
+    background-color: #008080; /* Màu nền cho tiêu đề */
+    color: white; /* Màu chữ cho tiêu đề */
+}
+
+.body3{
+    background-color: #F0F0F0;
+
+}
+
+.body3Contents{
+    display: flex;
+    width: 100%;
+}
+
+.body3 h2{
+    text-align: center;
+    color: #2CBEBA;
+}
+
+.body3Picture{
+    margin-bottom: 2%;
+    width: 50%;
+}
+
+.body3Picture img{
+    width: 98%;
+}
+
+.body3Input{
+    margin-left: 8%;
+    width: 98%;
+}
+.text{
+    text-align: center;
+    font-size: 150%;
+}
+
+.inputInfo{
+    font-size: 150%;
+}
+
+.inputInfo label {
+    color: orange;
+}
+
+.inputInfo input{
+    margin-left: 20%;
+}
+
+.inputInfo input.form1{
+    margin-left: 21.3%;
+    padding-left: 12%;
+    
+}
+
+.inputInfo input.form2{
+    margin-left: 26.2%;
+    padding-left: 12%;
+}
+
+.inputInfo input.form3{
+    margin-left: 24%;
+    padding-left: 12%;
+}
+
+.input_group{
+    display:flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+  
+.body3Button input {
+    background-color: orange; 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 5px; 
+    margin-right: 10px;
+}
+
+.body3Button {
+    text-align: center;
+}
+
+.foot{
+    background-color:#2CBEBA ;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+
